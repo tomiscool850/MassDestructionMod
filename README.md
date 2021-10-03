@@ -7,7 +7,7 @@ this mod is currently for 1.3 only but when 1.4 comes out offically then 1.1 wil
 You can download the mod on the mod broswer under Mass Distruction or download it here
 https://mirror10.sgkoi.dev/Mods/Details/MassDestruction
 
-the mod is currently on 1.0.0.5 which were mostly just changes but ya
+the mod is currently on 1.0.0.7 which were mostly just changes
 
 youll see all changlogs in a changlogs file in the code where you see all new releases and stuff starting 1.1
 
