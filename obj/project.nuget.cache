@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cN5/9KkeVq68YlkRDZs1iyW41XKV3ybAWoHJBjC5p9Lpr52GJ4yA/yil360Z2l+CuzVLJwTxEv0uSFal7Day2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thoma\\OneDrive\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\MassDestruction\\MassDestruction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thoma\\.nuget\\packages\\tmodloader.codeassist\\0.1.2\\tmodloader.codeassist.0.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
