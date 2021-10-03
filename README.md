@@ -13,4 +13,4 @@ youll see all changlogs in a changlogs file in the code where you see all new re
 
 see you on the flip side
 
-and thanks for listing
+and thanks for listing!
