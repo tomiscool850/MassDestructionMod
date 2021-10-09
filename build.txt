@@ -1,4 +1,4 @@
 displayName = Mass Destruction
 author = BrosadeAnimations, Shrub, and ThomasIR
-version = 1.0.0.8
+version = 1.0.0.9
 homepage = https://github.com/tomiscool850/MassDestructionMod
