@@ -1,7 +1,11 @@
 1.0.0.8
 
-added all the random files in the game	
+-added all the random files in the game	
 
 1.0.0.9
 
-removed all random files in the files 
+-removed all random files in the files 
+
+1.0.1.0
+
+-icon now works on mod browser
