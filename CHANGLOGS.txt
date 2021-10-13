@@ -9,3 +9,7 @@
 1.0.1.0
 
 -icon now works on mod browser
+
+1.0.1.1
+
+-added all new folders in mod
