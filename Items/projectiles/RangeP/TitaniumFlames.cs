@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace MassDestruction.Items.projectiles.MeleeP
+namespace MassDestruction.Items.projectiles.RangeP
 {
 	// The unique behaviors of Flamethrower projectiles are shown in this class.
 	// Simply put, the projectile is actually not drawn and what the player sees is just dust spawning to give the look of a stream of flames.

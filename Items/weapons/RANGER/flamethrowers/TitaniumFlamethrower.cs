@@ -4,6 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using MassDestruction.Items.projectiles;
 using MassDestruction.Items.projectiles.MeleeP;
+using MassDestruction.Items.projectiles.RangeP;
 
 namespace MassDestruction.Items.weapons.RANGER.flamethrowers
 {
