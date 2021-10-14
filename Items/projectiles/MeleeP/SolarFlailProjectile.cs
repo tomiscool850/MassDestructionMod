@@ -10,7 +10,7 @@ namespace MassDestruction.Items.projectiles.MeleeP
 	public class SolarFlailProjectile : ModProjectile
 	{
 		// The folder path to the flail chain sprite
-		private const string ChainTexturePath = "MassDestruction/Items/projectiles/SolarFlailProjectileChain";
+		private const string ChainTexturePath = "MassDestruction/Items/projectiles/Chains/FlailChains/SolarFlailProjectileChain";
 
 		public override void SetStaticDefaults()
 		{

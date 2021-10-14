@@ -13,3 +13,7 @@
 1.0.1.1
 
 -added all new folders in mod
+
+1.0.1.2
+
+-added new folders and new locations for all flail chains and flames
