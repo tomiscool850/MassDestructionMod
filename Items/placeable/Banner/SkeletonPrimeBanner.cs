@@ -22,8 +22,16 @@ namespace MassDestruction.Items.placeable.Banner
 			item.consumable = true;
 			item.rare = ItemRarityID.Blue;
 			item.value = Item.buyPrice(0, 0, 10, 0);
-			item.createTile = ModContent.TileType<MonsterBanner2>();
+			item.createTile = ModContent.TileType<SkeletronPrimeBannerTile>();
 			item.placeStyle = 0;
+		}
+		public override void AddRecipes()
+		{
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ModContent.ItemType<BlankBanner>());
+			recipe.AddIngredient(ItemID.MechanicalBatteryPiece);
+			recipe.SetResult(this);
+			recipe.AddRecipe();
 		}
 	}
 }

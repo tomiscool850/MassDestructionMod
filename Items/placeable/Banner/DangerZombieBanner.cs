@@ -22,7 +22,7 @@ namespace MassDestruction.Items.placeable.Banner
 			item.consumable = true;
 			item.rare = ItemRarityID.Blue;
 			item.value = Item.buyPrice(0, 0, 10, 0);
-			item.createTile = ModContent.TileType<MonsterBanner1>();
+			item.createTile = ModContent.TileType<DangerZombieBannerTile>();
 			item.placeStyle = 0;
 		}
 	}

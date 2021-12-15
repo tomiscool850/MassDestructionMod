@@ -27,3 +27,4 @@ C:\Users\thoma\OneDrive\Documents\My Games\Terraria\ModLoader\Mod Sources\MassDe
 C:\Users\thoma\OneDrive\Documents\My Games\Terraria\ModLoader\Mod Sources\MassDestruction\obj\Debug\net45\MassDestruction.csproj.CoreCompileInputs.cache
 C:\Users\thoma\OneDrive\Documents\My Games\Terraria\ModLoader\Mod Sources\MassDestruction\obj\Debug\net45\MassDestruction.dll
 C:\Users\thoma\OneDrive\Documents\My Games\Terraria\ModLoader\Mod Sources\MassDestruction\obj\Debug\net45\MassDestruction.pdb
+C:\Users\thoma\OneDrive\Documents\My Games\Terraria\ModLoader\Mod Sources\MassDestruction\obj\Debug\net45\MassDestruction.GeneratedMSBuildEditorConfig.editorconfig

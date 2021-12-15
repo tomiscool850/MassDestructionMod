@@ -6,6 +6,7 @@ using MassDestruction.Items.weapons.MELEE.sword;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using MassDestruction.Items.Materials;
 
 namespace MassDestruction.Items.weapons.MAGES.wands
 {
@@ -48,6 +49,12 @@ namespace MassDestruction.Items.weapons.MAGES.wands
 			recipe.AddIngredient(ModContent.ItemType<TutorialSword>());
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
+			recipe.AddRecipe();
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ModContent.ItemType<TutorialPeices>(), 8);
+			recipe.AddTile(TileID.WorkBenches);
+			recipe.SetResult(this);
+			recipe.AddRecipe();
 		}
 
 	}

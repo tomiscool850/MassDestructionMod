@@ -24,7 +24,7 @@ namespace MassDestruction.Items.weapons.MELEE.Katanas
 			item.value = 100;
 			item.rare = 1;
 			item.UseSound = SoundID.Item1;
-			item.autoReuse = true;
+			item.autoReuse = false;
 		}
 
 		public override void AddRecipes()

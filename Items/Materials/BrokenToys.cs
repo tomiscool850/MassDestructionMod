@@ -26,7 +26,6 @@ namespace MassDestruction.Items.Materials
 			recipe.AddIngredient(ModContent.ItemType<Toys>());
 			recipe.SetResult(this);
 			recipe.AddRecipe();
-			recipe = new ModRecipe(mod);
 
 		}
 	}

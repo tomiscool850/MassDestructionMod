@@ -2,6 +2,7 @@ using MassDestruction.Items.weapons.MELEE.sword;
 using MassDestruction.Items.weapons.MAGES.wands;
 using Terraria.ID;
 using Terraria.ModLoader;
+using MassDestruction.Items.Materials;
 
 namespace MassDestruction.Items.weapons.RANGER.bows
 {
@@ -44,6 +45,12 @@ namespace MassDestruction.Items.weapons.RANGER.bows
 			recipe.AddIngredient(ModContent.ItemType<TutorialWand>());
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
+			recipe.AddRecipe();
+			recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ModContent.ItemType<TutorialPeices>(), 8);
+			recipe.AddTile(TileID.WorkBenches);
+			recipe.SetResult(this);
+			recipe.AddRecipe();
 		}
 
 	}

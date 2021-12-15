@@ -36,6 +36,13 @@ namespace MassDestruction.Items.weapons.MELEE.flails
 			recipe.AddTile(TileID.LunarCraftingStation);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
+
+		}
+				public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+		{
+			// Add the Onfire buff to the NPC for 1 second when the weapon hits an NPC
+			// 60 frames = 1 second
+			target.AddBuff(BuffID.OnFire, 360);
 		}
 	}
 }

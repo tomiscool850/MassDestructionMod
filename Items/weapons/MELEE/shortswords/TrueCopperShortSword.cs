@@ -1,4 +1,5 @@
 
+using MassDestruction.Items.projectiles.MeleeP;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -27,6 +28,7 @@ namespace MassDestruction.Items.weapons.MELEE.shortswords
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 			item.scale = 0.5f;
+			item.shoot = ModContent.ProjectileType<TrueCopperShortswordProjectile>();
 		}
 
 		public override void AddRecipes()

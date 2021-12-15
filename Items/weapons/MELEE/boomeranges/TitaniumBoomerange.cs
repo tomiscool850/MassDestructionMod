@@ -2,6 +2,7 @@ using IL.Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using MassDestruction.Items.projectiles;
+using MassDestruction.Items.projectiles.MeleeP;
 
 namespace MassDestruction.Items.weapons.MELEE.boomeranges
 {
@@ -30,7 +31,7 @@ namespace MassDestruction.Items.weapons.MELEE.boomeranges
 			item.autoReuse = true;
 			item.scale = 1;
 			item.shootSpeed = 10f;
-			item.shoot = ProjectileID.EnchantedBoomerang;
+			item.shoot = ModContent.ProjectileType<TitaniumBoomerangProjectile>();
 		}
 		public override void AddRecipes()
 		{

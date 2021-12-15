@@ -37,7 +37,7 @@ namespace MassDestruction.Items.weapons.MELEE.yoyos
 			item.noUseGraphic = true;
 
 			item.UseSound = SoundID.Item1;
-			item.value = Item.sellPrice(silver: 1);
+			item.value = Item.sellPrice(gold: 1);
 			item.shoot = ModContent.ProjectileType<AdamantiteYoyoProjectile>();
 		}
 

@@ -8,6 +8,11 @@ namespace MassDestruction.Items.weapons.MELEE.flails
 {
 	public class BfMicThrow : ModItem
 	{
+		public override void SetStaticDefaults()
+		{
+			DisplayName.SetDefault("Bf's Throwable Mic");
+		}
+
 		public override void SetDefaults()
 		{
 			item.width = 35;

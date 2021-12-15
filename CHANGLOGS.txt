@@ -17,3 +17,72 @@
 1.0.1.2
 
 -added new folders and new locations for all flail chains and flames
+
+1.1
+
+added over 400 new things including NPCs, weapons, bosses, items, armors, ect
+
+changed/fixes
+added a projectile for the true copper shortsword--done
+added a custom projectile for titanium boomerange--done
+added a projectile for jade blade--done
+added a custom projectile for adamantite boomerange--done
+fixed the banner sprite glich--done
+changed the sprite for the king slime banner--done
+made recipes for all unobtaniable banners--done
+made a recipe for the influx waver--done
+made a recipe for crimtane and demonite do they can turn into each other--done
+made a recipe for Tissue samples and Shadow scales do they can turn into each other--done
+nerfed the sword bow--done
+changed recipes for all blowpipes--done
+resprited nights small blade--done
+resprited excaliber stabber--done
+added a recipe for cobalt sheild--done
+nerfed the adamantite cannon--done
+made the knights sword no longer a lead eclusive weapon--done
+made the Sword bow no longer a Iron eclusive weapon--done
+nerfed the knights sword--done
+buffed the tin reapeter--done
+made the wood katana no longer auto reusable--done
+buffed the tutorial so its a tiny bit harder--done
+nerfed the danger zombie--done
+resprited a effect sprites--done
+made a recipe for the pixsaw--done
+resprited the solar yoyo projectile--done
+nerfed the sword arrow--done
+made the danger zombie spawn after eye of chulue--done
+resprited solar boomerange--done
+resprited solar boomerange projectile--done
+resprited admanatite boomerange--done
+resprited adamantite spear--done
+resprited crawler staff--done
+resprited adamantite flamethrower--done
+resprited titanium boomerange--done
+fixed the recipe for 1.0 ball--done
+finally fixed the jade table--done
+fixed the discripsion for the true nights pick--done
+fixed the recipe for the sword arrow--done
+changed the crafting station for the blue shorty--done
+added a bar block for the jade bar--done
+changed the name of bf mic throw to bf's throwable mic--done
+made the jade fishing rod no longer usable in lava--done
+buffed jade fishing rod--done
+made a recipe for the blowpipe--done
+fixed all recipes that had multipe recipes cuase im bad--done
+fixed the raritys of both the adamantite bow and titanium bow--done
+changed the amount of adamantite bars it takes to make the adamantite bow--done
+romoved the confetie when hitting the danger zombie--done
+changed the recipe for all tutorial weapons--done
+added a debuff to the jungle small sword--done
+added a on fire debuff to all solar weapons--done
+Removed a ton of unessary code and i mean a ton--done
+fixed the tile for the adamantite luancher same for titanium luancher--done
+used a new way of using drop code/way better btw--done
+made a chance to get the tutorial weapons--done
+added a new weapon for the chlorahyte bar--done
+made diffrent values for alot of the materials--done
+changed the rarity of tutorial dirt from gray to white
+fixed the sell price for adamantite and solar yoyo and titanium yoyo--done
+buffed the adamantite ar--done
+made the jade ore more recistable--done
+added music for the tutorial Boss--done

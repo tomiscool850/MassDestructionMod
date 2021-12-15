@@ -1,3 +1,11 @@
+using MassDestruction.Items.bossStuff.Masks;
+using MassDestruction.Items.bossStuff.Throfys;
+using MassDestruction.Items.bossStuff.TresureBags;
+using MassDestruction.Items.Materials;
+using MassDestruction.Items.placeable.Banner;
+using MassDestruction.Items.weapons.MAGES.wands;
+using MassDestruction.Items.weapons.MELEE.sword;
+using MassDestruction.Items.weapons.RANGER.bows;
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
@@ -12,7 +20,7 @@ namespace MassDestruction.Items.NPCS.bosses
 	{
 		public override string Texture => "MassDestruction/Items/NPCS/bosses/Tutorial";
 
-		public override string HeadTexture => "MassDestruction/Items/monsters/bosses/Tutorial_Head_Boss";
+		public override string HeadTexture => "MassDestruction/Items/NPCS/bosses/Tutorial_Head_Boss";
 
 		public override void SetStaticDefaults()
 		{
@@ -26,8 +34,8 @@ namespace MassDestruction.Items.NPCS.bosses
 			npc.height = 50;
 			npc.aiStyle = -1; // This npc has a completely unique AI, so we set this to -1. The default aiStyle 0 will face the player, which might conflict with custom AI code.
 			npc.damage = 3;
-			npc.defense = 2;
-			npc.lifeMax = 300;
+			npc.defense = 5;
+			npc.lifeMax = 450;
 			npc.boss = true;
 			npc.HitSound = SoundID.NPCHit1;
 			npc.DeathSound = SoundID.NPCDeath1;
@@ -35,7 +43,10 @@ namespace MassDestruction.Items.NPCS.bosses
 			//npc.color = new Color(0, 80, 255, 100);
 			npc.value = 25f;// npc default to being immune to the Confused debuff. Allowing confused could be a little more work depending on the AI. npc.confused is true while the npc is confused.
 			npc.scale = 0.3f;
-			
+			banner = npc.type;
+			bannerItem = ModContent.ItemType<TutorialBanner>();
+			bossBag = ModContent.ItemType<TutorialTresureBag>();
+			music = MusicID.Boss2;
 		}
 
 
@@ -241,6 +252,39 @@ namespace MassDestruction.Items.NPCS.bosses
 			else if (AI_State == State_Fall)
 			{
 				npc.frame.Y = Frame_Falling * frameHeight;
+
+			}
+
+		}
+		public override void NPCLoot()
+		{
+			if (Main.expertMode)
+			{
+				npc.DropBossBags();
+			}
+			else
+			{ 
+				Item.NewItem(npc.getRect(), ModContent.ItemType<TutorialPeices>(), 10);
+			
+				if (Main.rand.NextBool(50))
+				{
+					Item.NewItem(npc.getRect(), ModContent.ItemType<TutorialWand>());
+					Item.NewItem(npc.getRect(), ModContent.ItemType<TutorialSword>());
+					Item.NewItem(npc.getRect(), ModContent.ItemType<TutorialBow>());
+
+
+					if (Main.rand.NextBool(30))
+					{
+						Item.NewItem(npc.getRect(), ModContent.ItemType<TutorialThrofy>());
+
+						if (Main.rand.NextBool(20))
+						{
+							Item.NewItem(npc.getRect(), ModContent.ItemType<TutorialMask>());
+						}
+
+
+					}
+				}
 			}
 		}
 	}

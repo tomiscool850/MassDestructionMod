@@ -18,7 +18,7 @@ namespace MassDestruction.Items.tiles.furniture.Beds
 			TileObjectData.newTile.CoordinateHeights = new[] { 16, 18 };
 			TileObjectData.addTile(Type);
 			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Example Bed");
+			name.SetDefault("Jade Bed");
 			AddMapEntry(new Color(200, 200, 200), name);
 			disableSmartCursor = true;
 			adjTiles = new int[] { TileID.Beds };

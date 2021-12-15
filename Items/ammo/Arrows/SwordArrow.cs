@@ -14,7 +14,7 @@ namespace MassDestruction.Items.ammo.Arrows
 
 		public override void SetDefaults()
 		{
-			item.damage = 12;
+			item.damage = 8;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
@@ -45,10 +45,13 @@ namespace MassDestruction.Items.ammo.Arrows
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this, 50);
 			recipe.AddRecipe();
+			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.WoodenArrow, 50);
 			recipe.AddIngredient(ItemID.IronBar);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this, 50);
+			recipe.AddRecipe();
+
 
 		}
 	}

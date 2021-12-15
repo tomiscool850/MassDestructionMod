@@ -26,7 +26,7 @@ namespace MassDestruction.Items.tiles.blocks
 			drop = ModContent.ItemType<Items.placeable.Ore.JadeOre>();
 			soundType = SoundID.Tink;
 			soundStyle = 1;
-			mineResist = 0.5f;
+			mineResist = 2f;
 			minPick = 180;
 		}
 	}

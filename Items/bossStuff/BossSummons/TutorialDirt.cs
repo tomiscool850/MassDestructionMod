@@ -19,7 +19,7 @@ namespace MassDestruction.Items.bossStuff.BossSummons
 			item.width = 20;
 			item.height = 20;
 			item.maxStack = 20;
-			item.rare = ItemRarityID.Gray;
+			item.rare = ItemRarityID.White;
 			item.useAnimation = 30;
 			item.useTime = 30;
 			item.useStyle = ItemUseStyleID.HoldingUp;

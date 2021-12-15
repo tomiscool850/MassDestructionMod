@@ -10,7 +10,7 @@ namespace MassDestruction.Items.placeable.Wall
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("jade wall.");
+			Tooltip.SetDefault("jade brick wall.");
 		}
 
 		public override void SetDefaults()

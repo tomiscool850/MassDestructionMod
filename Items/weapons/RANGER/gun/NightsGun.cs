@@ -41,8 +41,6 @@ namespace MassDestruction.Items.weapons.RANGER.gun
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
-
-
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Boomstick, 1);
 			recipe.AddIngredient(ItemID.FlintlockPistol, 1);

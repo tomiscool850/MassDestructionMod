@@ -17,12 +17,12 @@ namespace MassDestruction.Items.tools.fishingRods
 
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Jade ishing rod");
+			DisplayName.SetDefault("Jade fishing rod");
 			Tooltip.SetDefault("jade yes do yes, also suggesting for fishing\n" +
 				" as it can have eaither 3 bobbles to 5");
 
 			//Allows the pole to fish in lava
-			ItemID.Sets.CanFishInLava[item.type] = true;
+			ItemID.Sets.CanFishInLava[item.type] = false;
 		}
 
 		public override void SetDefaults()
@@ -37,7 +37,7 @@ namespace MassDestruction.Items.tools.fishingRods
 			item.CloneDefaults(ItemID.WoodFishingPole);
 
 			//Sets the poles fishing power
-			item.fishingPole = 60;
+			item.fishingPole = 75;
 
 			//Sets the speed in which the bobbers are launched, Wooden Fishing Pole is 9f and Golden Fishing Rod is 17f
 			item.shootSpeed = 8f;

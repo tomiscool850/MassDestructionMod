@@ -15,7 +15,7 @@ namespace MassDestruction.Items.Materials
 			item.width = 20;
 			item.height = 20;
 			item.maxStack = 999;
-			item.value = 100;
+			item.value = 1000;
 			item.rare = ItemRarityID.Blue;
 		}
 
@@ -25,10 +25,12 @@ namespace MassDestruction.Items.Materials
 			recipe.AddIngredient(ItemID.LeadBar, 1);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
+			recipe.AddRecipe();
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.IronBar, 1);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
+			recipe.AddRecipe();
 
 		}
 	}

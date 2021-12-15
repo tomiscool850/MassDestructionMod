@@ -11,7 +11,7 @@ namespace MassDestruction.Items.placeable.Block
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("Brick of Jade nice.");
+			Tooltip.SetDefault("Brick of Jade, nice.");
 			ItemID.Sets.ExtractinatorMode[item.type] = item.type;
 
 			// This is an example of how translations are coded into the game. Making your mod Open Source is a good way to enlist help with translations and make your mod more popular worldwide. Be sure to have "using Terraria.Localization".

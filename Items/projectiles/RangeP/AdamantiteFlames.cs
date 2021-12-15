@@ -33,11 +33,7 @@ namespace MassDestruction.Items.projectiles.RangeP
 
 		public override void AI()
 		{
-			/*if (projectile.wet)
-			{
-				projectile.Kill(); //This kills the projectile when touching water. However, since our projectile is a cursed flame, we will comment this so that it won't run it. If you want to test this, feel free to uncomment this.
-			}*/
-			// Using a timer, we scale the earliest spawned dust smaller than the rest.
+			
 			float dustScale = 1f;
 			if (projectile.ai[0] == 0f)
 				dustScale = 0.25f;
@@ -69,8 +65,6 @@ namespace MassDestruction.Items.projectiles.RangeP
 
 		public override void ModifyDamageHitbox(ref Rectangle hitbox)
 		{
-			// By using ModifyDamageHitbox, we can allow the flames to damage enemies in a larger area than normal without colliding with tiles.
-			// Here we adjust the damage hitbox. We adjust the normal 6x6 hitbox and make it 66x66 while moving it left and up to keep it centered.
 			int size = 30;
 			hitbox.X -= size;
 			hitbox.Y -= size;

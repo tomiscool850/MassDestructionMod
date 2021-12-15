@@ -12,7 +12,7 @@ namespace MassDestruction.Items.weapons.RANGER.gun
 
 		public override void SetDefaults()
 		{
-			item.damage = 20;
+			item.damage = 46;
 			item.ranged = true;
 			item.width = 40;
 			item.height = 40;
@@ -22,7 +22,7 @@ namespace MassDestruction.Items.weapons.RANGER.gun
 			item.noMelee = true;
 			item.knockBack = 3;
 			item.value = 10000;
-			item.rare = ItemRarityID.Green;
+			item.rare = ItemRarityID.Blue;
 			item.UseSound = SoundID.Item11;
 			item.autoReuse = true;
 			item.shoot = 10;

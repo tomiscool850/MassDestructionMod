@@ -11,7 +11,7 @@ namespace MassDestruction.Items.tools.picks
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("i can tell this isnt that good.");
+			Tooltip.SetDefault("big brain night.");
 		}
 
 		public override void SetDefaults()
