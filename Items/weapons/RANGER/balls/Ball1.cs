@@ -43,7 +43,7 @@ namespace MassDestruction.Items.weapons.RANGER.balls
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.IronBar, 2);
-			recipe.AddTile(TileID.MythrilAnvil);
+			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this, 100);
 			recipe.AddRecipe();
 

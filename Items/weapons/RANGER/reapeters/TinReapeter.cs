@@ -14,12 +14,12 @@ namespace MassDestruction.Items.weapons.RANGER.reapeters
 
 		public override void SetDefaults()
 		{
-			item.damage = 7; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
+			item.damage = 9; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
 			item.ranged = true; // sets the damage type to ranged
 			item.width = 40; // hitbox width of the item
 			item.height = 20; // hitbox height of the item
-			item.useTime = 22; // The item's use time in ticks (60 ticks == 1 second.)
-			item.useAnimation = 22; // The length of the item's use animation in ticks (60 ticks == 1 second.)
+			item.useTime = 20; // The item's use time in ticks (60 ticks == 1 second.)
+			item.useAnimation = 20; // The length of the item's use animation in ticks (60 ticks == 1 second.)
 			item.useStyle = ItemUseStyleID.HoldingOut; // how you use the item (swinging, holding out, etc)
 			item.noMelee = true; //so the item's animation doesn't do damage
 			item.knockBack = 2; // Sets the item's knockback. Note that projectiles shot by this weapon will use its and the used ammunition's knockback added together.

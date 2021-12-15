@@ -1,7 +1,6 @@
 
 using MassDestruction.Items.weapons;
 using MassDestruction.Items.weapons.RANGER.javilens;
-using MassDestruction.Items.weapons.RANGER.javilens;
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using Terraria;

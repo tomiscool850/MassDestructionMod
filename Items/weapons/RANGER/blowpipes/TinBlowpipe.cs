@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 using Terraria.ID;
-
+using MassDestruction.Items.Materials;
 
 namespace MassDestruction.Items.weapons.RANGER.blowpipes
 {
@@ -40,6 +40,7 @@ namespace MassDestruction.Items.weapons.RANGER.blowpipes
 			base.AddRecipes();
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.TinBar, 8);
+			recipe.AddIngredient(ModContent.ItemType<BlowpipeCore>());
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

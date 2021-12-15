@@ -1,5 +1,6 @@
 
 using MassDestruction.Items.placeable.Bar;
+using MassDestruction.Items.projectiles.MeleeP;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -25,6 +26,7 @@ namespace MassDestruction.Items.weapons.MELEE.sword
 			item.knockBack = 5;
 			item.value = 1000000;
 			item.rare = 4;
+			item.shoot = ModContent.ProjectileType<JadeBladeProjectile>();
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 		}

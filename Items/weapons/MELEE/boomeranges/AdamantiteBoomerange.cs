@@ -2,6 +2,7 @@ using IL.Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using MassDestruction.Items.projectiles;
+using MassDestruction.Items.projectiles.MeleeP;
 
 namespace MassDestruction.Items.weapons.MELEE.boomeranges
 {
@@ -29,8 +30,8 @@ namespace MassDestruction.Items.weapons.MELEE.boomeranges
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
 			item.scale = 1;
-			item.shootSpeed = 10f;
-			item.shoot = ProjectileID.EnchantedBoomerang;
+			item.shootSpeed = 12f;
+			item.shoot = ModContent.ProjectileType<AdamantiteBoomerangProjectile>();
 		}
 		public override void AddRecipes()
 		{

@@ -15,7 +15,7 @@ namespace MassDestruction.Items.Materials
 			item.width = 20;
 			item.height = 20;
 			item.maxStack = 999;
-			item.value = 100;
+			item.value = 10000;
 			item.rare = ItemRarityID.Purple;
 		}
 
@@ -28,6 +28,7 @@ namespace MassDestruction.Items.Materials
 			recipe.AddIngredient(ItemID.HellstoneBar, 5);
 			recipe.AddTile(TileID.DemonAltar);
 			recipe.SetResult(this, 5);
+			recipe.AddRecipe();
 			recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.CrimtaneBar, 5);
 			recipe.AddIngredient(ItemID.PlatinumBar, 5);
@@ -35,6 +36,7 @@ namespace MassDestruction.Items.Materials
 			recipe.AddIngredient(ItemID.HellstoneBar, 5);
 			recipe.AddTile(TileID.DemonAltar);
 			recipe.SetResult(this, 5);
+			recipe.AddRecipe();
 
 
 		}

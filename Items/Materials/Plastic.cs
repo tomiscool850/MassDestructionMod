@@ -15,7 +15,7 @@ namespace MassDestruction.Items.Materials
 			item.width = 20;
 			item.height = 20;
 			item.maxStack = 999;
-			item.value = 100;
+			item.value = 1000;
 			item.rare = ItemRarityID.Cyan;
 		}
 

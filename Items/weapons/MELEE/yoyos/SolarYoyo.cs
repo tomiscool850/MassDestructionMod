@@ -37,7 +37,7 @@ namespace MassDestruction.Items.weapons.MELEE.yoyos
 			item.noUseGraphic = true;
 
 			item.UseSound = SoundID.Item1;
-			item.value = Item.sellPrice(silver: 50);
+			item.value = Item.sellPrice(platinum: 1);
 			item.shoot = ModContent.ProjectileType<SolarYoyoProjectile>();
 		}
 
@@ -65,6 +65,12 @@ namespace MassDestruction.Items.weapons.MELEE.yoyos
 			recipe.AddTile(TileID.LunarCraftingStation);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
+
+		}
+
+		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+		{
+			target.AddBuff(BuffID.OnFire, 360);
 		}
 	}
 }

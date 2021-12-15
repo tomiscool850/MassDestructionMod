@@ -40,7 +40,7 @@ namespace MassDestruction.Items.weapons.RANGER.javilens
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.CopperBar, 2);
-			recipe.AddTile(TileID.MythrilAnvil);
+			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this, 100);
 			recipe.AddRecipe();
 

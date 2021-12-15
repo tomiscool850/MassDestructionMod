@@ -1,3 +1,4 @@
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -35,6 +36,14 @@ namespace MassDestruction.Items.weapons.MELEE.shortswords
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
+
+		}
+
+		public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+		{
+			// Add the Onfire buff to the NPC for 1 second when the weapon hits an NPC
+			// 60 frames = 1 second
+			target.AddBuff(BuffID.Poisoned, 240);
 		}
 	}
-}
+	}

@@ -1,5 +1,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
+using MassDestruction.Items.placeable.CraftingStation;
 
 namespace MassDestruction.Items.weapons.MELEE.shortswords
 {
@@ -31,7 +32,7 @@ namespace MassDestruction.Items.weapons.MELEE.shortswords
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Muramasa);
-			recipe.AddTile(TileID.Anvils);
+			recipe.AddTile(ModContent.TileType<Items.tiles.CraftingStations.CutterStationTile>());
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}

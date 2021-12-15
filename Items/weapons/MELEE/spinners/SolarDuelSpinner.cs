@@ -7,7 +7,7 @@ using System;
 
 namespace MassDestruction.Items.weapons.MELEE.spinners
 {
-    public class SolarDuelSpinner: ModItem
+    public class SolarDuelSpinner : ModItem
     {
         public override void SetDefaults()
         {
@@ -46,8 +46,13 @@ namespace MassDestruction.Items.weapons.MELEE.spinners
             recipe.AddTile(TileID.LunarCraftingStation);
             recipe.SetResult(this);
             recipe.AddRecipe();
-
         }
+
+        public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+        {
+            target.AddBuff(BuffID.OnFire, 360);
+        }
+
     }
 
 

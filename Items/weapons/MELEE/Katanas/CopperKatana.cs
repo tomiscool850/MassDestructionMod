@@ -25,7 +25,6 @@ namespace MassDestruction.Items.weapons.MELEE.Katanas
 			item.rare = 1;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-			item.scale = 1;
 			item.scale = 0.5f;
 		}
 
