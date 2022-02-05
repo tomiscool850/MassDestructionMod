@@ -1,25 +1,26 @@
 if you want to see the current changlogs for 1.1 and future changlogs go to the homepage also known as the github
 
-CELEBRATION THANKS FOR 2000 downloads guys:)
+CELEBRATION THANKS FOR 3000 downloads guys:)
 
-
-if we can get to 5000 downloads ill make a update that adds only your suggestions
-
+if we can get to 3000 downloads ill make a update that adds only your suggestions
 
 Mass Distruction is a specil mod, it adds content you wouldnt expect
 this mod adds(will change every main update)
 -200+ new weapons (including yoyos, spellBooks, swords, shortswords ect)
--32 new ammo types(10 bullets, 12 arrow, 10 darts and 1 rocket)
--10 new sets of armor
--13 new accessories
+-33 new ammo types(10 bullets, 12 arrow, 10 darts and 1 rocket)
+-14 new sets of armor
+-14 new accessories
 -31 new items
--15 new NPC
+-16 new NPC
 -3 new boss(including the throfys, tresure bags and summon)
--120 new tiles(including blocks, furniture, walls, ect)
+-125 new tiles(including blocks, furniture, walls, ect)
 -16 new sets of tools(plus 9 hamaxes, 1 fishing rod, 2 hook, and 2 wings)
--19 new buffs/debuffs(all summon buffs and regular buffs and debuffs )
+-20 new buffs/debuffs(all summon buffs and regular buffs and debuffs )
 -1 potions
 -8 dusts
 -1 mounts
 -150+ projectiles
--120 placeables(including blocks, furniture, walls, ect)
+-125 placeables(including blocks, furniture, walls, ect)
+
+this mod will now be dead as im going to be working on a version for 1.4 tmodloader called A Worthy Adventure
+Hope you understand:)

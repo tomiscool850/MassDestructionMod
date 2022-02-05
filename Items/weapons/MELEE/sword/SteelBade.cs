@@ -35,16 +35,6 @@ namespace MassDestruction.Items.weapons.MELEE.sword
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
-
-
-
-
-
-
-
-
-
-
 		}
 	}
 }

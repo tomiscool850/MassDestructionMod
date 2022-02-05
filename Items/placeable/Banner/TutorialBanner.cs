@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using MassDestruction.Items.tiles.banners;
+using MassDestruction.Items.assesories.Everyone;
 
 namespace MassDestruction.Items.placeable.Banner
 {
@@ -24,6 +25,14 @@ namespace MassDestruction.Items.placeable.Banner
 			item.value = Item.buyPrice(0, 0, 10, 0);
 			item.createTile = ModContent.TileType<TutorialBannerTile>();
 			item.placeStyle = 0;
+		}
+		public override void AddRecipes()
+		{
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ModContent.ItemType<BlankBanner>());
+			recipe.AddIngredient(ModContent.ItemType<TutorialRing>());
+			recipe.SetResult(this);
+			recipe.AddRecipe();
 		}
 	}
 }

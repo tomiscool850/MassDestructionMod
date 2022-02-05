@@ -14,7 +14,7 @@ namespace MassDestruction.sounds.WeaponSounds
 				return null;
 			}
 
-			soundInstance.Volume = volume * .5f;
+			soundInstance.Volume = volume * 5f;
 			soundInstance.Pan = pan;
 			soundInstance.Pitch = Main.rand.Next(-5, 6) * .05f;
 			return soundInstance;

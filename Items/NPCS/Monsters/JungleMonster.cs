@@ -22,8 +22,8 @@ namespace MassDestruction.Items.NPCS.Monsters
 			npc.damage = 20;
 			npc.defense = 25;
 			npc.lifeMax = 150;
-			npc.HitSound = SoundID.NPCHit1;
-			npc.DeathSound = SoundID.NPCDeath1;
+			npc.HitSound = mod.GetLegacySoundSlot(SoundType.Item, "MassDestruction/sounds/MonsterGrowl2");
+			npc.DeathSound = mod.GetLegacySoundSlot(SoundType.Item, "MassDestruction/sounds/MonsterGrowl1");
 			npc.value = 1000f;
 			npc.knockBackResist = 1f;
 			npc.aiStyle = 3;

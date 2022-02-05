@@ -42,7 +42,7 @@ namespace MassDestruction.Items.NPCS.bosses
 			//npc.alpha = 175;
 			//npc.color = new Color(0, 80, 255, 100);
 			npc.value = 25f;// npc default to being immune to the Confused debuff. Allowing confused could be a little more work depending on the AI. npc.confused is true while the npc is confused.
-			npc.scale = 0.3f;
+			npc.scale = 0.45f;
 			banner = npc.type;
 			bannerItem = ModContent.ItemType<TutorialBanner>();
 			bossBag = ModContent.ItemType<TutorialTresureBag>();

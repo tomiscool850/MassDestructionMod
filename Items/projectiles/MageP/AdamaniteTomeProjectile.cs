@@ -37,7 +37,7 @@ namespace MassDestruction.Items.projectiles.MageP
 				// If the player channels the weapon, do something. This check only works if item.channel is true for the weapon.
 				if (player.channel)
 				{
-					float maxDistance = 18f; // This also sets the maximun speed the projectile can reach while following the cursor.
+					float maxDistance = 12f; // This also sets the maximun speed the projectile can reach while following the cursor.
 					Vector2 vectorToCursor = Main.MouseWorld - projectile.Center;
 					float distanceToCursor = vectorToCursor.Length();
 
