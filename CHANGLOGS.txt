@@ -86,3 +86,15 @@ fixed the sell price for adamantite and solar yoyo and titanium yoyo--done
 buffed the adamantite ar--done
 made the jade ore more recistable--done
 added music for the tutorial Boss--done
+
+1.1.1
+
+Added 50+ new christmas stuff
+
+added a recipe for the candy cane sword--done
+scaled the tutorial up a tiny bit he not imitating that size--done
+buffed like all arrow --done
+added a recipe for the goblin man zombie king and tutorial banner--done
+changed the max distince for all magic Projectiles--done
+updated the icon to a pecful tone--done
+added new sounds for the monster enemys

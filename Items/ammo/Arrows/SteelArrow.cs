@@ -25,7 +25,7 @@ namespace MassDestruction.Items.ammo.Arrows
 			item.value = 10000;
 			item.rare = ItemRarityID.White;
 			item.shoot = ModContent.ProjectileType<Items.projectiles.AmmoP.SteelArrowProjectile>();   //The projectile shoot when your weapon using this ammo
-			item.shootSpeed = 6f;                  //The speed of the projectile
+			item.shootSpeed = 8f;                  //The speed of the projectile
 			item.ammo = AmmoID.Arrow;              //The ammo class this ammo belongs to.
 		}
 

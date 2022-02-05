@@ -23,7 +23,7 @@ namespace MassDestruction.Items.weapons.MELEE.sword
 			item.knockBack = 2;
 			item.value = 1000;
 			item.rare = 2;
-			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "MassDestruction/Sounds/BfSound");
+			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "MassDestruction/sounds/BfSound");
 			item.autoReuse = true;
 			item.scale = 0.5f;
 		}
