@@ -10,7 +10,7 @@ this mod adds(will change every main update)
 -33 new ammo types(10 bullets, 12 arrow, 10 darts and 1 rocket)
 -14 new sets of armor
 -14 new accessories
--31 new items
+-32 new items
 -16 new NPC
 -3 new boss(including the throfys, tresure bags and summon)
 -125 new tiles(including blocks, furniture, walls, ect)

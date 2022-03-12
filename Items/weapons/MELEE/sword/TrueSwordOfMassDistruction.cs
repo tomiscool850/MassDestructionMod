@@ -2,6 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using MassDestruction.Items.projectiles;
 using MassDestruction.Items.projectiles.MeleeP;
+using MassDestruction.Items.Materials;
 
 namespace MassDestruction.Items.weapons.MELEE.sword
 {
@@ -35,6 +36,7 @@ namespace MassDestruction.Items.weapons.MELEE.sword
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ModContent.ItemType<SwordOfMassDistruction>());
+			recipe.AddIngredient(ModContent.ItemType<ThanksMessage>());
 			recipe.AddIngredient(ItemID.BrokenHeroSword, 500);
 			recipe.AddTile(TileID.LunarCraftingStation);
 			recipe.SetResult(this);

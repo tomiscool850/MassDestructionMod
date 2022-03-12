@@ -2,6 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using MassDestruction.Items.projectiles;
 using MassDestruction.Items.projectiles.MeleeP;
+using MassDestruction.Items.Materials;
 
 namespace MassDestruction.Items.weapons.MELEE.sword
 {
@@ -38,6 +39,7 @@ namespace MassDestruction.Items.weapons.MELEE.sword
 			recipe.AddIngredient(ModContent.ItemType<TrueInfluxWaver>(), 5);
 			recipe.AddIngredient(ModContent.ItemType<TheBladeOfDanger>(), 2);
 			recipe.AddIngredient(ModContent.ItemType<TrueBladeOfDanger>());
+			recipe.AddIngredient(ModContent.ItemType<ThanksMessage>());
 			recipe.AddIngredient(ItemID.BrokenHeroSword, 50);
 			recipe.AddTile(TileID.LunarCraftingStation);
 			recipe.SetResult(this);

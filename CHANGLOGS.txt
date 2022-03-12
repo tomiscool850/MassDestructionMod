@@ -98,3 +98,8 @@ added a recipe for the goblin man zombie king and tutorial banner--done
 changed the max distince for all magic Projectiles--done
 updated the icon to a pecful tone--done
 added new sounds for the monster enemys
+
+1.1.2
+
+Added the thanks message
+changed the recipe for the sword of mass distruction
